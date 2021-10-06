@@ -8,7 +8,10 @@ class TmuxLazySession < Formula
 
   head "https://github.com/ingara/tmux-lazy-session.git", shallow: false
 
+  depends_on "rust" => :build
+
   def install
-    bin.install "tmux-lazy-session"
+    system "cargo", "build", "--release", "--bin", "tmux-lazy-session"
+    bin.install "target/release/tmux-lazy-session"
   end
 end
