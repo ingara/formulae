@@ -1,9 +1,9 @@
 class TmuxLazySession < Formula
   desc "Tmux sessions for lazy people"
   homepage "https://github.com/ingara/tmux-lazy-session"
-  url "https://github.com/ingara/tmux-lazy-session.git", tag: "v1.0.8", revision: "5e4201de631fdcf25c71312a5b7fd1e9187d36f2"
+  url "https://github.com/ingara/tmux-lazy-session.git", tag: "v1.0.9", revision: "f3dc74adf3af1d64f236361d22b266c54f0ea6d7"
   sha256 ""
-  version "v1.0.8"
+  version "v1.0.9"
   license ""
 
   head "https://github.com/ingara/tmux-lazy-session.git", shallow: false
